@@ -7,37 +7,37 @@ import PortfolioItem from './PortfolioItem';
 
 const PORTFOLIO_ALL = [
     {
-      portfolioImg:"/assets/images/portfolio/portfolio-1.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio1.png",
       portfolioCat:"UI/UX Design",
       portfolioTitle:"Digital Agency",
       portfolioLink:"/single-portfolio",
     },
     {
-      portfolioImg:"/assets/images/portfolio/portfolio-5.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio2.png",
       portfolioCat:"Marketing",
       portfolioTitle:"Marketing Agency",
       portfolioLink:"/single-portfolio",
     },
     {
-      portfolioImg:"/assets/images/portfolio/portfolio-3.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio3.png",
       portfolioCat:"Development",
       portfolioTitle:"Creative Agency",
       portfolioLink:"/single-portfolio",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-1.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio4.png",
       portfolioCat:"Content Writing",
       portfolioTitle:"Digital Agency",
       portfolioLink:"/single-portfolio",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-2.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio5.png",
       portfolioCat:"Social Ad",
       portfolioTitle:"Marketing Agency",
       portfolioLink:"/single-portfolio",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-3.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio6.png",
       portfolioCat:"App Design",
       portfolioTitle:"Creative Agency",
       portfolioLink:"/single-portfolio",
@@ -47,19 +47,19 @@ const PORTFOLIO_ALL = [
 
 const PORTFOLIO_UI = [
     {
-      portfolioImg:"/assets/images/portfolio/portfolio-5.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio1.png",
       portfolioCat:"Marketing",
       portfolioTitle:"Marketing Agency",
       portfolioLink:"/single-portfolio",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-1.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio2.png",
       portfolioCat:"Content Writing",
       portfolioTitle:"Digital Agency",
       portfolioLink:"/single-portfolio",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-3.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio3.png",
       portfolioCat:"App Design",
       portfolioTitle:"Creative Agency",
       portfolioLink:"/single-portfolio",
@@ -69,46 +69,40 @@ const PORTFOLIO_UI = [
 
   const PORTFOLIO_MARKETING = [
     {
-      portfolioImg:"/assets/images/portfolio/portfolio-1.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio4.png",
       portfolioCat:"UI/UX Design",
       portfolioTitle:"Digital Agency",
       portfolioLink:"/single-portfolio",
     },
     {
-      portfolioImg:"/assets/images/portfolio/portfolio-3.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio5.png",
       portfolioCat:"Development",
       portfolioTitle:"Creative Agency",
       portfolioLink:"/single-portfolio",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-2.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio6.png",
       portfolioCat:"Social Ad",
       portfolioTitle:"Marketing Agency",
       portfolioLink:"/single-portfolio",
     },    
-    {
-      portfolioImg:"/assets/images/portfolio/p-1.jpg",
-      portfolioCat:"Content Writing",
-      portfolioTitle:"Digital Agency",
-      portfolioLink:"/single-portfolio",
-    },
   ];
 
   const PORTFOLIO_DEVELOPMENT = [    
     {
-      portfolioImg:"/assets/images/portfolio/portfolio-5.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio5.png",
       portfolioCat:"Marketing",
       portfolioTitle:"Marketing Agency",
       portfolioLink:"/single-portfolio",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-1.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio1.png",
       portfolioCat:"Content Writing",
       portfolioTitle:"Digital Agency",
       portfolioLink:"/single-portfolio",
     },    
     {
-      portfolioImg:"/assets/images/portfolio/portfolio-3.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio3.png",
       portfolioCat:"Development",
       portfolioTitle:"Creative Agency",
       portfolioLink:"/single-portfolio",
@@ -117,25 +111,19 @@ const PORTFOLIO_UI = [
 
   const PORTFOLIO_CONTENT = [
     {
-      portfolioImg:"/assets/images/portfolio/p-3.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio3.png",
       portfolioCat:"App Design",
       portfolioTitle:"Creative Agency",
       portfolioLink:"/single-portfolio",
     },
     {
-      portfolioImg:"/assets/images/portfolio/portfolio-1.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio1.png",
       portfolioCat:"UI/UX Design",
       portfolioTitle:"Digital Agency",
       portfolioLink:"/single-portfolio",
-    },
+    },   
     {
-      portfolioImg:"/assets/images/portfolio/p-1.jpg",
-      portfolioCat:"Content Writing",
-      portfolioTitle:"Digital Agency",
-      portfolioLink:"/single-portfolio",
-    },    
-    {
-      portfolioImg:"/assets/images/portfolio/p-2.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio2.png",
       portfolioCat:"Social Ad",
       portfolioTitle:"Marketing Agency",
       portfolioLink:"/single-portfolio",

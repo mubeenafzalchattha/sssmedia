@@ -21,8 +21,8 @@ const HomeOne = () => {
       <main>
         <Hero/>      
         <About subTitle="About Us"
-        titleFirst="We are here to make your"
-        titleSecond="product look more elegant and stylish"
+        titleFirst="Rewamp your brand"
+        titleSecond=""
         />   
         <Services extraClass="mt-75"/>      
         <Facts/>      

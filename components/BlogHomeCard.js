@@ -22,7 +22,7 @@ const BlogHomeCard = ({blogLink, blogImg, blogDate, catLink, blogCat, blogTitle}
                                     </div>
                                     <h3>
                                         <Link href={blogLink}>
-                                            <a>
+                                            <a className='blog_card_title'>
                                                 {blogTitle}
                                             </a>
                                         </Link>

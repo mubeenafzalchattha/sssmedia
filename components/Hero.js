@@ -1,8 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import Link from 'next/link';
+
 
 const Hero = () => {
+    const whatsappUrl = `https://wa.me/${'+971502794425'}?text=${encodeURIComponent('Hey, can you audit my social media?')}`;
     return (
         <section className="hero__area hero__height fix p-relative d-flex align-items-center">
             <div className="hero__shape">
@@ -24,14 +25,19 @@ const Hero = () => {
                             <h4 className="section__sub-title">
                                 Creative Digital Agency
                             </h4>
+                            {/* <h2 className="hero__title">
+                                <span>We build your brands</span>
+                                online presence
+                            </h2>   */}
                             <h2 className="hero__title">
-                                <span>We build creative</span>
+                                <span>We build creative </span>
                                 websites & apps
                             </h2>  
-                            <p>The carbon in our apple pies extraordinary claims require extraord evidence permanence of the stars energy.</p>                              
-                            <Link href="/contact">
-                                <a className="m-btn mt-35">Get Started</a>
-                            </Link>
+                            {/* <p>The carbon in our apple pies extraordinary claims require extraord evidence permanence of the stars energy.</p>  */}  
+                            <p> Build A Brand and Increase Sales Through UGC, Social Media, and Digital Marketing. </p>                           
+                            {/* <Link > */}
+                                <a href={whatsappUrl} className="m-btn mt-35">Book free consultation</a>
+                            {/* </Link> */}
                         </div>
                     </Col>
                     <Col xxl={6} xl={6} lg={5} md={5} sm={7}>
@@ -42,7 +48,7 @@ const Hero = () => {
                                 <img className="hero-t-shape-3" src="/assets/images/shape/hero/hero-t-shape-3.png" alt=""/>
                             </div>
                             <div className="hero__thumb-image">
-                                <img src="/assets/images/hero/hero-img.jpg" alt=""/>
+                                <img src="/assets/images/hero/hero-image.svg" alt=""/>
                             </div>
                         </div>
                     </Col>

@@ -18,7 +18,7 @@ const Faq = () => {
                             <Col xl={6} lg={5}>
                                 <div className="faq__thumb">
                                     <div className="faq__thumb-image">
-                                        <img src="/assets/images/faq/faq-img.jpg" alt=""/>
+                                        <img src="/assets/images/faq/faq-img.svg" alt=""/>
                                     </div>
                                 </div>
                             </Col>

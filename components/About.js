@@ -25,17 +25,17 @@ const About = ({subTitle, titleFirst, titleSecond}) => {
                                 <img className="about-s-2 d-none d-md-block" src="/assets/images/shape/about/about-s-2.png" alt=""/>
                             </div>
                             <div className="about__thumb-image">
-                                <img src="/assets/images/about/about-img.jpg" alt=""/>
+                                <img src="/assets/images/about/about-image.svg" alt=""/>
                             </div>
                         </div>
                     </Col>
                     <Col xl={{ span: 5, offset: 1 }} lg={6}>                            
                         <div className="about__content">
-                            <p>Kindling the energy hidden in matter the only home we&apos;ve ever known radio telescope decipherment descended from astronomers rogue. Prime number network of wormholes take root.</p>
+                            <p>Reach more audience with influencer Marketing and community management.</p>
                             <ul>
-                                <li>Sea of Tranquility dispassionate observer dream.</li>
-                                <li>Muse about as a patch of light brain is the seed of intelligence.</li>
-                                <li>The only home we`ve ever known dream of the mind`s eye.</li>
+                                <li>UGC</li>
+                                <li>Social media marketing</li>
+                                <li>Content creation and Custom photoshoot/ Video shoot</li>
                             </ul>
                         </div>
                         <div className="about__counter-bg d-none d-sm-block">

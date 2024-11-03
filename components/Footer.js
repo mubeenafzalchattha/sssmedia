@@ -22,12 +22,12 @@ const Footer = () => {
                         </Col>
                         <Col xxl={{ span: 5, offset: 1 }} xl={5} lg={4} md={4}>
                             <div className="footer__subscribe"> 
-                                <form action="#">                                        
+                                <form>                                        
                                     <div className="footer__subscribe-input">
                                         <div className="form-group">
                                             <input type="email" className="form-control" placeholder="Email address"/>
                                         </div>
-                                        <button type="submit">Subscribe</button>
+                                        <button type="button">Subscribe</button>
                                     </div>
                                 </form>                               
                             </div> 
@@ -65,27 +65,27 @@ const Footer = () => {
                                     <ul>
                                         <li>
                                             <Link href="/services-details">
-                                                <a>Development</a>
+                                                <a>UGC/SEO</a>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/services-details">
-                                                <a>marketing</a>  
+                                                <a>Digital Marketing</a>  
                                             </Link>                                          
                                         </li>
                                         <li>
                                             <Link href="/services-details">
-                                                <a>UI/UX Design</a>
+                                                <a>Ad Campaigns</a>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/services-details">
-                                                <a>E-commerce</a>
+                                                <a>Brand Building</a>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/services-details">
-                                                <a>Content Writing</a>
+                                                <a>Content Creation</a>
                                             </Link>
                                         </li>
                                     </ul>
@@ -135,8 +135,7 @@ const Footer = () => {
                                 </div>
                                 <div className="footer__widget-info">
                                     <div className="footer__widget-address">
-                                        <p>66 Broklyn Street, New York
-                                            United States of America</p>
+                                        <p>Dubai, UAE</p>
                                     </div>
                                     <div className="footer__widget-phone d-flex align-items-center">
                                         <i className="fa-solid fa-phone"></i>
@@ -161,8 +160,8 @@ const Footer = () => {
                     <Row>
                         <Col xl={12}>
                             <div className="footer__copyright">
-                                <p>Copyright © 2022
-                                    <Link href="https://alimasha.net/">
+                                <p>Copyright © 2024
+                                    <Link href="/">
                                         <a>Snap Shutter Social Media Agency</a>
                                     </Link>
                                 </p>

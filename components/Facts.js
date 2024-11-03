@@ -18,7 +18,7 @@ const Facts = () => {
                                     <img className="facts-s-4 d-none d-md-block" src="/assets/images/shape/facts/facts-s-4.png" alt=""/>
                                 </div>
                                 <div className="facts__thumb-image">
-                                    <img src="/assets/images/facts/facts-img.png" alt=""/>
+                                    <img src="/assets/images/facts/facts-projects.svg" alt=""/>
                                 </div>
                             </div>
                         </Col>

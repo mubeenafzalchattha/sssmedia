@@ -70,15 +70,15 @@ const Header = ({headerClass, menuClass, sideMenuClass, heroLogo}) => {
                     <div className="sidebar__contact mb-30">
                         <div className="contact-list mb-30">
                             <ul>
-                                <li><i className="fas fa-map-marker-alt"></i>66 Broklyn Street, New York United States of America</li>
+                                <li><i className="fas fa-map-marker-alt"></i>Dubai, UAE</li>
                                 <li><i className="far fa-paper-plane"></i>
-                                <Link href="mailto:info@example.com">
-                                    <a>info@example.com</a>
+                                <Link href="mailto:hello@snapshuttermedia.com">
+                                    <a>hello@snapshuttermedia.com</a>
                                 </Link>
                                 </li>
                                 <li><i className="fas fa-phone"></i>
-                                <Link href="tel:+1166442200">
-                                    <a>+11 66 44 22 00</a>
+                                <Link href="tel:+971 50 279 4425">
+                                    <a>+971 50 279 4425</a>
                                 </Link>
                                 </li>
                             </ul>

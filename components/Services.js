@@ -37,7 +37,7 @@ const SERVICE_DATA = [
     },
     {
       serviceIcon:"/assets/images/icon/s-icon-6.png",
-      serviceTitle:"Photography/Videography",
+      serviceTitle:"Photography/ Videography",
       serviceDesc:"Showcase your brand with stunning photography and videography, creating visuals that tell your brand’s story beautifully.",
       serviceLink:"/services-details"
     },

@@ -36,7 +36,7 @@ const Experience = ({extraClass}) => {
                                 <span onClick={openModal}><i className="fas fa-play"></i></span>                            
                             </div>
                             <div className="experience__thumb text-end">
-                                <img src="/assets/images/experience/experience-img.png" alt=""/>
+                                <img src="/assets/images/experience/experience-image.svg" alt=""/>
                             </div>
                         </Col>                        
                     </Row>

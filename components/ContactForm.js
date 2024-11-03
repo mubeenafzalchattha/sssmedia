@@ -3,7 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const ContactForm = () => {
     return (
-        <section id="contact" className="project__area project__area-2 p-relative pt-130 mb-260">
+        // <section id="contact" className="project__area project__area-2 p-relative pt-130 mb-260">
+        <section id="contact" className="project__area-2 p-relative pt-130 mb-260">
                 <div className="project__shape contact__shape">
                     <img className="project-s-1 c-s-1" src="/assets/images/shape/project/p-s-1.png" alt=""/>
                     <img className="project-s-2 c-s-2" src="/assets/images/shape/project/p-s-2.png" alt=""/>
@@ -15,10 +16,10 @@ const ContactForm = () => {
                         <Col xl={9} lg={10}>
                             <div className="project__thumb d-sm-flex">
                                 <div className="project__thumb-1">
-                                    <img src="/assets/images/project/project-img-1.jpg" alt=""/>
+                                    <img src="/assets/images/contact/contact-us1.svg" alt=""/>
                                 </div>
                                 <div className="project__thumb-2 project__thumb-3 d-none d-sm-block">
-                                    <img src="/assets/images/project/project-img-2.jpg" alt=""/>
+                                    <img src="/assets/images/contact/contact-us2.svg" alt=""/>
                                 </div>
                             </div>
                         </Col>
