@@ -23,11 +23,12 @@ const Experience = ({extraClass}) => {
                     <Row className="align-items-center">
                         <Col xl={5} lg={6} md={9} sm={10}>
                             <div className="experience__content">
-                                <SectionTitle subTitle="25 Years Of Experience"
+                                <SectionTitle subTitle="Your Brand Awareness"
                                 titleFirst="Ready to get our" titleSecond="digital services?"/>
-                                <p>That&apos;s not on the roadmap losing these latest prospects is like putting socks on an octopus to give you a heads-up.</p>
+                                <p>Empowering brands through tailored social media strategies for amplified online presence and engagement.</p>
                                 <Link href="/contact">
-                                    <a className="m-btn mt-35">Start a Project</a>
+                                    <a className="m-btn mt-35">FREE
+                                    Social Media Audit</a>
                                 </Link>
                             </div> 
                         </Col>

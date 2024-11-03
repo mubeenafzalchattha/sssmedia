@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 const TeamPage = () => {
     return (
-        <Layout pageTitle="Maxdi | Business & Digital Agency">
+        <Layout pageTitle="SSS | Media">
             <PageHeader title="Portfolio Details" crumbTitle="Portfolio Details"/>
             <Header heroLogo="/assets/images/logo/sss-media-logo.png"
             headerClass="header__white"

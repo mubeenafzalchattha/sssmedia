@@ -161,7 +161,7 @@ const Services = () => {
                         id="noanim-tab-example"
                         className="portfolio__menu"
                         >
-                          <Tab eventKey="all" title="Show All">
+                          <Tab eventKey="all" title="Clients">
                             <Row className="mt-150">
                             {PORTFOLIO_ALL.map(
                                 ({portfolioImg, portfolioCat, portfolioTitle, portfolioLink}, index) => (
@@ -176,7 +176,7 @@ const Services = () => {
                             )} 
                             </Row>
                           </Tab>
-                          <Tab eventKey="ui" title="UI/UX Design">
+                          {/* <Tab eventKey="ui" title="UI/UX Design">
                             <Row className="mt-150">
                             {PORTFOLIO_UI.map(
                                 ({portfolioImg, portfolioCat, portfolioTitle, portfolioLink}, index) => (
@@ -235,7 +235,7 @@ const Services = () => {
                               )
                             )} 
                             </Row>
-                          </Tab>
+                          </Tab> */}
                       </Tabs>  
                     </div>
                 </Container>      

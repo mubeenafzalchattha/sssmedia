@@ -46,10 +46,10 @@ const PortfolioDetails = () => {
                                         <div className="values__content-icon">
                                             <i className="fa-solid fa-screwdriver-wrench blue"></i>                                            
                                         </div>
-                                        <div className="values__content-text">
+                                        {/* <div className="values__content-text">
                                             <h3>Creative UI/UX Design</h3>
                                             <p>Energy only home we&apos;ve ever known radio telescope decipherment descended from rogue.</p>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="values__content d-flex align-items-center">
                                         <div className="values__content-icon">

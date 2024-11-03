@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 const ContactPage = () => {
     return (
-        <Layout pageTitle="Maxdi | Business & Digital Agency">
+        <Layout pageTitle="SSS | Media">
             <PageHeader title="Contact us" crumbTitle="Contact us"/>
             <Header heroLogo="/assets/images/logo/sss-media-logo.png"
             headerClass="header__white"

@@ -30,8 +30,8 @@ const Hero = () => {
                                 online presence
                             </h2>   */}
                             <h2 className="hero__title">
-                                <span>We build creative </span>
-                                websites & apps
+                                <span>Connect With</span>
+                                Right Audience
                             </h2>  
                             {/* <p>The carbon in our apple pies extraordinary claims require extraord evidence permanence of the stars energy.</p>  */}  
                             <p> Build A Brand and Increase Sales Through UGC, Social Media, and Digital Marketing. </p>                           

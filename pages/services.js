@@ -11,7 +11,7 @@ import Footer from "../components/Footer";
 
 const ServicesPage = () => {
     return (
-        <Layout pageTitle="Maxdi | Business & Digital Agency">
+        <Layout pageTitle="SSS | Media">
             <PageHeader title="Services" crumbTitle="Services"/>
             <Header heroLogo="/assets/images/logo/sss-media-logo.png"
             headerClass="header__white"

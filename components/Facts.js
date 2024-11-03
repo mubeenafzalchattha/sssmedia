@@ -26,25 +26,25 @@ const Facts = () => {
                             <div className="facts__content">
                                 <div className="facts__content-text">
                                     <SectionTitle subTitle="Facts To Know"
-                                    titleFirst="Our project will help"
-                                    titleSecond="you standout"
+                                    titleFirst="We will help "
+                                    titleSecond=" you standout"
                                     />                                    
-                                    <p>The carbon in our apple pies extraordinary claims require extraord evidence permanence of the stars kindling the energy hidden in matter from which we spring emerged.</p>
+                                    <p> We empower your brand to cultivate a stellar reputation while reaching the right audience. Partner with us to elevate your name and make a lasting impression</p>
                                 </div>
                                 <div className="facts__counter-content d-flex">
                                     <div className="facts__counter-text">
-                                        <h2>
+                                        {/* <h2>
                                             <CountUp end={2} duration={5} />K
-                                        </h2>
-                                        <h5>Project Delivered</h5>
-                                        <p>Preserve and cherish that pale blue dot star stuff.</p>
+                                        </h2> */}
+                                        <h5>Your Custom Content</h5>
+                                        <p>Content crafted specially for you.</p>
                                     </div>
                                     <div className="facts__counter-text">
-                                        <h2>
+                                        {/* <h2>
                                             <CountUp end={5} duration={5} />M
-                                        </h2>
-                                        <h5>Total Revinue</h5>
-                                        <p>The carbon in our appies event not nosunrise.</p>
+                                        </h2> */}
+                                        <h5>Custom Photoshoot</h5>
+                                        <p>We don't just use any photos.</p>
                                     </div>
                                 </div>
                             </div>

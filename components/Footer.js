@@ -38,7 +38,7 @@ const Footer = () => {
                             <div className="footer__widget wow fadeIn" data-wow-delay=".5s">
                                 <div className="footer__widget-logo">
                                     <img src="assets/images/logo/footer-sss-media-logo.png" alt="logo"/>
-                                    <p>Core object made kolor adipisci elit sed diam nonummy nibh euismod tincidunt laoreet dolore magna grinjon.</p>
+                                    <p>Rewamp your brand, reach more audience with influencer Marketing and community management.</p>
                                 </div>
                                 <div className="footer__widget-social">
                                     <Link href="#">
