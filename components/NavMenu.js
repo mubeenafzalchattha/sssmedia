@@ -30,7 +30,7 @@ const NavMenu = () => {
                 </button>
                 <ul className="submenu">
                     <li><Link href="/contact"><a>Contact</a></Link></li>
-                    <li><Link href="/blog"><a>Blog</a></Link></li>
+                    {/* <li><Link href="/blog"><a>Blog</a></Link></li> */}
                     {/* <li><Link href="/single-blog"><a>Blog Details</a></Link></li> */}
                     <li><Link href="/team"><a>Team</a></Link></li>
                     {/* <li><Link href="/single-team"><a>Team Details</a></Link></li> */}

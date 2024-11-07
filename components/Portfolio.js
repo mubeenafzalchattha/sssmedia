@@ -6,43 +6,43 @@ import SectionTitle from './SectionTitle';
 import PortfolioItem from './PortfolioItem';
 
 const PORTFOLIO_ALL = [
-    {
-      portfolioImg:"/assets/images/portfolio/portfolio1.png",
-      portfolioCat:"UI/UX Design",
-      portfolioTitle:"Digital Agency",
-      portfolioLink:"/single-portfolio",
-    },
-    {
-      portfolioImg:"/assets/images/portfolio/portfolio2.png",
-      portfolioCat:"Marketing",
-      portfolioTitle:"Marketing Agency",
-      portfolioLink:"/single-portfolio",
-    },
-    {
-      portfolioImg:"/assets/images/portfolio/portfolio3.png",
-      portfolioCat:"Development",
-      portfolioTitle:"Creative Agency",
-      portfolioLink:"/single-portfolio",
-    },
-    {
-      portfolioImg:"/assets/images/portfolio/portfolio4.png",
-      portfolioCat:"Content Writing",
-      portfolioTitle:"Digital Agency",
-      portfolioLink:"/single-portfolio",
-    },
-    {
-      portfolioImg:"/assets/images/portfolio/portfolio5.png",
-      portfolioCat:"Social Ad",
-      portfolioTitle:"Marketing Agency",
-      portfolioLink:"/single-portfolio",
-    },
-    {
-      portfolioImg:"/assets/images/portfolio/portfolio6.png",
-      portfolioCat:"App Design",
-      portfolioTitle:"Creative Agency",
-      portfolioLink:"/single-portfolio",
-    },
-  ];
+  {
+    portfolioImg:"/assets/images/portfolio/portfolio1.png",
+    portfolioCat:"UI/UX Design",
+    portfolioTitle:"Custom Photoshoot",
+    portfolioLink:"/single-portfolio",
+  },
+  {
+    portfolioImg:"/assets/images/portfolio/portfolio2.png",
+    portfolioCat:"Marketing",
+    portfolioTitle:"Creative Ideas",
+    portfolioLink:"/single-portfolio",
+  },
+  {
+    portfolioImg:"/assets/images/portfolio/portfolio3.png",
+    portfolioCat:"Development",
+    portfolioTitle:"Innovative Content",
+    portfolioLink:"/single-portfolio",
+  },
+  {
+    portfolioImg:"/assets/images/portfolio/portfolio4.png",
+    portfolioCat:"Content Writing",
+    portfolioTitle:"Right Audience",
+    portfolioLink:"/single-portfolio",
+  },
+  {
+    portfolioImg:"/assets/images/portfolio/portfolio5.png",
+    portfolioCat:"Social Ad",
+    portfolioTitle:"Custom Photoshoot",
+    portfolioLink:"/single-portfolio",
+  },
+  {
+    portfolioImg:"/assets/images/portfolio/portfolio6.png",
+    portfolioCat:"App Design",
+    portfolioTitle:"Creative Ideas",
+    portfolioLink:"/single-portfolio",
+  },
+];
 
 
 const PORTFOLIO_UI = [

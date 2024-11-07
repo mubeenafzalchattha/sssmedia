@@ -9,6 +9,7 @@ import Project from "../components/Project";
 import BlogHome from "../components/BlogHome";
 import LetsWork from "../components/LetsWork";
 import Footer from "../components/Footer";
+import Testimonial from "../components/Testimonial";
 
 const AboutPage = () => {
     return (
@@ -19,14 +20,15 @@ const AboutPage = () => {
             menuClass="main-menu-3"
             />      
             <main>
-                <About subTitle="We are Maxdi"
+                <About subTitle="We are SSS | Media"
                 titleFirst="We are here to make your"
                 titleSecond="product look more elegant and stylish"
                 />     
-                <Experience extraClass="mt-70"/>      
-                <TeamHome subTitle="Team Members"/>      
-                <Project extraClass="project__area-pt" subTitle="Get Started"/>       
-                <BlogHome extraClass="pt-110"/>      
+                <Experience extraClass="mt-70"/>         
+                {/* <Project extraClass="project__area-pt" subTitle="Get Started"/>        */}
+                <Testimonial testimonialArea="testimonials__area" paddingTop="pt-120"/> 
+                <TeamHome subTitle="Team Members"/>  
+                {/* <BlogHome extraClass="pt-110"/>       */}
                 <LetsWork/>
             </main> 
             <Footer/>     

@@ -11,14 +11,15 @@ const PortfolioItem = ({portfolioImg, portfolioCat, portfolioTitle, portfolioLin
                     <div className="portfolio__text">
                         <p>{portfolioCat}</p>
                         <h3>
-                            <Link href={portfolioLink}>
+                            {/* <Link href={portfolioLink}> */}
+                            <Link href='/'>
                                 <a>{portfolioTitle}</a>
                             </Link>
                         </h3>  
                         <div className="portfolio__link">
-                        <Link href={portfolioLink}>
+                        {/* <Link href={portfolioLink}>
                             <a><i className="fas fa-plus"></i></a>
-                        </Link>
+                        </Link> */}
                         </div>                                  
                     </div>
                 </div>                                

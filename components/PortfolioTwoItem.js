@@ -11,7 +11,8 @@ const PortfolioTwoItem = ({portfolioImg, portfolioLink, portfolioTitle, portfoli
                 </div>                                
                 <div className="portfolio__text-2">
                     <h3>
-                        <Link href={portfolioLink}>
+                        {/* <Link href={portfolioLink}> */}
+                        <Link href='#'>
                             <a>{portfolioTitle}</a>
                         </Link>
                     </h3>  

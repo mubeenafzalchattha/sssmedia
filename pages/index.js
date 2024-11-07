@@ -30,7 +30,7 @@ const HomeOne = () => {
         <Experience/>      
         <Testimonial testimonialArea="testimonials__area" paddingTop="pt-120"/>      
         <Faq/>      
-        <BlogHome extraClass="pt-60"/>      
+        {/* <BlogHome extraClass="pt-60"/>       */}
         <LetsWork/>
       </main> 
       <Footer/>     

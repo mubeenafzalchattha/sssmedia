@@ -1,7 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
 
-const ServiceSidebar = () => {
+const ServiceSidebar = ({services, ActiveService, setActiveService}) => {
+
+    const handleActiveService = (service) => {
+        setActiveService(service);
+    }
+
     return (
         <div className="sidebar__widget sidebar__widget-2">
             <div className="sidebar__widget-title">
@@ -9,36 +14,16 @@ const ServiceSidebar = () => {
             </div>
             <div className="sidebar__widget-link">
                 <ul>
-                    <li>
-                        <Link href="/services-details">
-                            <a>UI/UX Design</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/services-details">
-                            <a>Web Development</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/services-details">
-                            <a>Digital Marketing</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/services-details">
-                            <a>App Development</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/services-details">
-                            <a>Content Strategy</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/services-details">
-                            <a>E-commerce</a>
-                        </Link>
-                    </li>
+                    {services?.map(service => (
+                        <li key={service.name}>
+                            <p 
+                                onClick={() => handleActiveService(service.name)}
+                                style={ActiveService === service.name ? { color: '#7432ff' } : { cursor: 'pointer'}}
+                            >
+                                <a>{service.title}</a>
+                            </p>
+                        </li>
+                    ))}
                 </ul>
             </div>
         </div>
@@ -46,3 +31,4 @@ const ServiceSidebar = () => {
 };
 
 export default ServiceSidebar;
+

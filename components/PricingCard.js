@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const PricingCard = ({extraClass, priceTitle, priceText, amount, amountTag, listOne, listTwo, listThree, listFour, listFive}) => {
     return (
-        <Col xl={4} lg={4} md={6}>    
+        // <Col xl={4} lg={4} md={6}>    
             <div className={`pricing__box ${extraClass}`}>    
                 <div className="pricing__header">    
                     <h3>{priceTitle}</h3> 
@@ -17,9 +17,9 @@ const PricingCard = ({extraClass, priceTitle, priceText, amount, amountTag, list
                     <ul>    
                         <li>{listOne}</li>    
                         <li>{listTwo}</li>    
-                        <li>{listThree}</li>    
-                        <li>{listFour}</li>    
-                        <li>{listFive}</li>    
+                        {listThree && <li>{listThree}</li> }  
+                        {listFour && <li>{listFour}</li> } 
+                        {listFive && <li>{listFive}</li> }    
                     </ul>    
                 </div>
                 <div className="pricing__link">   
@@ -28,7 +28,7 @@ const PricingCard = ({extraClass, priceTitle, priceText, amount, amountTag, list
                     </Link> 
                 </div>                                                
             </div>    
-        </Col>
+        // </Col>
     );
 };
 
