@@ -3651,7 +3651,11 @@ textarea {
   }
 }
 .testimonials__logo {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  height: 90px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .testimonials__logo {
@@ -3659,7 +3663,8 @@ textarea {
   }
 }
 .testimonials__logo img {
-  max-height: 50px;
+  max-height: 100%;
+  max-width: 140px;
 }
 .testimonials__text {
   margin-bottom: 30px;
@@ -6914,6 +6919,10 @@ textarea {
   margin-bottom: 16px;
   position: relative;
   padding-left: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .pricing__item ul li {
