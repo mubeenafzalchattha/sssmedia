@@ -14,11 +14,11 @@ const ServiceItem = ({serviceIcon, serviceTitle, serviceDesc, serviceLink}) => {
                         <h3>{serviceTitle}</h3>
                         <p>{serviceDesc}</p>
                     </div>
-                    {/* <div className="single__service-link">
+                    <div className="single__service-link">
                         <Link href={serviceLink}>
                              <a className="s-btn">Find out more</a> 
                         </Link>
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </Col>

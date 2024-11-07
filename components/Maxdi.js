@@ -43,13 +43,13 @@ const Maxdi = () => {
                             </div>
                             <div className="maxdi__content d-flex">
                                 <div className="maxdi__thumb-1">
-                                    <img src="/assets/images/maxdi/maxdi-img-1.jpg" alt=""/>
-                                </div>
+                                    <img src="/assets/images/sssmedia/sssmedia1.svg" alt=""/>
+                                </div>        
                                 <div className="maxdi__thumb-2">
-                                    <img src="/assets/images/maxdi/maxdi-img-2.jpg" alt=""/>
+                                    <img src="/assets/images/sssmedia/sssmedia2.svg" alt=""/>
                                 </div>                               
                                 <div className="maxdi__thumb-3">
-                                    <img src="/assets/images/maxdi/maxdi-img-3.jpg" alt=""/>
+                                    <img src="/assets/images/sssmedia/sssmedia3.svg" alt=""/>
                                 </div>                               
                             </div>
                         </Col>                                            

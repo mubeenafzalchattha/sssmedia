@@ -7,37 +7,37 @@ import PortfolioTwoItem from './PortfolioTwoItem';
 
 const PORTFOLIO_ALL = [
     {
-      portfolioImg:"/assets/images/portfolio/p-1.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio1.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"UI/UX Design",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-2.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio2.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"Web Development",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-3.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio3.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"Branding Special",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-4.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio4.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"Digital Marketing",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-5.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio5.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"Branding Special",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-6.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio6.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"Digital Marketing",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
@@ -47,19 +47,19 @@ const PORTFOLIO_ALL = [
 
   const PORTFOLIO_UI = [
     {
-      portfolioImg:"/assets/images/portfolio/p-2.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio2.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"Web Development",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-3.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio3.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"Branding Special",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-5.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio5.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"Branding Special",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
@@ -69,25 +69,25 @@ const PORTFOLIO_ALL = [
 
   const PORTFOLIO_MARKETING = [
     {
-      portfolioImg:"/assets/images/portfolio/p-1.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio1.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"UI/UX Design",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-2.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio2.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"Web Development",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-4.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio4.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"Digital Marketing",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-6.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio6.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"Digital Marketing",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
@@ -96,25 +96,25 @@ const PORTFOLIO_ALL = [
 
   const PORTFOLIO_DEVELOPMENT = [
     {
-      portfolioImg:"/assets/images/portfolio/p-1.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio1.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"UI/UX Design",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-3.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio3.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"Branding Special",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-4.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio4.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"Digital Marketing",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
     },
     {
-      portfolioImg:"/assets/images/portfolio/p-5.jpg",
+      portfolioImg:"/assets/images/portfolio/portfolio5.png",
       portfolioLink:"/single-portfolio",
       portfolioTitle:"Branding Special",
       portfolioText:"Draw a line in the sand quick win. My capacity is full. Keep it lean gain alignment we need to future-proof this plan.",
@@ -148,7 +148,7 @@ const PortfolioTwo = ({extraClass}) => {
                         id="noanim-tab-example"
                         className="portfolio__menu portfolio__menu-2"
                         >
-                          <Tab eventKey="all" title="Show All">
+                          <Tab eventKey="all" title="Clients">
                             <Row className="mt-70">
                             {PORTFOLIO_ALL.map(
                                 ({portfolioImg, portfolioLink, portfolioTitle, portfolioText}, index) => (
@@ -163,7 +163,7 @@ const PortfolioTwo = ({extraClass}) => {
                             )} 
                             </Row>
                           </Tab>  
-                          <Tab eventKey="ui" title="UI/UX Design">
+                          {/* <Tab eventKey="ui" title="UI/UX Design">
                             <Row className="mt-70">
                             {PORTFOLIO_UI.map(
                                 ({portfolioImg, portfolioLink, portfolioTitle, portfolioText}, index) => (
@@ -207,7 +207,7 @@ const PortfolioTwo = ({extraClass}) => {
                               )
                             )} 
                             </Row>
-                          </Tab>
+                          </Tab> */}
                       </Tabs>  
                     </div> 
             </Container>      
