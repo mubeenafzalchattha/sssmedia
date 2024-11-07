@@ -28,30 +28,6 @@ const MEMBER_DATA = [
       memberName:"Tailor Milan",
       memberPosition:"Marketing Manager"
     },
-    {
-      memberImg:"/assets/images/team/member-1.jpg",
-      memberLink:"/single-team",
-      memberName:"John Smith",
-      memberPosition:"Web Developer"
-    },
-    {
-      memberImg:"/assets/images/team/member-2.jpg",
-      memberLink:"/single-team",
-      memberName:"Alisha Alima",
-      memberPosition:"Product Designer"
-    },
-    {
-      memberImg:"/assets/images/team/member-3.jpg",
-      memberLink:"/single-team",
-      memberName:"David Park",
-      memberPosition:"UI/UX Designer"
-    },
-    {
-      memberImg:"/assets/images/team/member-4.jpg",
-      memberLink:"/single-team",
-      memberName:"Tailor Milan",
-      memberPosition:"Marketing Manager"
-    },
   ];
 
 const TeamMember = ({subTitle}) => {
